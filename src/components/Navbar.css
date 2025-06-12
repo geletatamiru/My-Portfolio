@@ -1,0 +1,109 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: #111;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4ea8ff;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #4ea8ff;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger,
+.close {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  display: block;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger::before,
+.hamburger::after,
+.close::before,
+.close::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+
+.hamburger::before {
+  top: -8px;
+}
+.hamburger::after {
+  bottom: -8px;
+}
+
+.close {
+  background: transparent;
+}
+.close::before {
+  transform: rotate(45deg);
+}
+.close::after {
+  transform: rotate(-45deg);
+}
+
+.nav-links.active {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background-color: #111;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+}
