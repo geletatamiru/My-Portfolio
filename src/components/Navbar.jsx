@@ -1,13 +1,6 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import "./Navbar.css";
- const navLinks = [
-    { name: 'Home', path: '/' },
-    { name: 'About', path: '/about' },
-    { name: 'Skills', path: '/skills' },
-    { name: 'Projects', path: '/projects' },
-    { name: 'Contact', path: '/contact' },
-  ];
+
 function Navbar(){
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -15,18 +8,26 @@ function Navbar(){
   return (
     <nav className="navbar">
       <div className="navbar-container">
-          <Link to="/" className="logo">
+          <a href="#home" className="logo">
             GT
-          </Link>
+          </a>
 
           <ul className={`nav-links ${menuOpen ? 'active' : ''}`}>
-            {navLinks.map((link) => (
-              <li key={link.name}>
-                <Link to={link.path} onClick={() => setMenuOpen(false)}>
-                  {link.name}
-                </Link>
-              </li>
-            ))}
+            <li>
+              <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
+            </li>
+            <li>
+              <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
+            </li>
+            <li>
+              <a href="#skills" onClick={() => setMenuOpen(false)}>About</a>
+            </li>
+            <li>
+              <a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a>
+            </li>
+            <li>
+              <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
+            </li>
           </ul>
 
           <div className="menu-icon" onClick={toggleMenu}>
