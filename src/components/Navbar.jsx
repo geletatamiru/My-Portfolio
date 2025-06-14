@@ -20,7 +20,7 @@ function Navbar(){
               <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
             </li>
             <li>
-              <a href="#skills" onClick={() => setMenuOpen(false)}>About</a>
+              <a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a>
             </li>
             <li>
               <a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a>

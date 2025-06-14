@@ -15,6 +15,10 @@ const About = () => {
         <p className="about-text">
           I enjoy turning ideas into reality through code. Whether working solo or with a team, I strive to deliver clean, scalable
           solutions. Currently, I'm focused on learning advanced backend systems and building impactful side projects.
+          I enjoy turning ideas into reality through code. Whether working solo or with a team, I strive to deliver clean, scalable
+          solutions. Currently, I'm focused on learning advanced backend systems and building impactful side projects.
+          I enjoy turning ideas into reality through code. Whether working solo or with a team, I strive to deliver clean, scalable
+          solutions. Currently, I'm focused on learning advanced backend systems and building impactful side projects.
         </p>
       </div>
     </section>
