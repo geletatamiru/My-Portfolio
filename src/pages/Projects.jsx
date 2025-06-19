@@ -4,6 +4,7 @@ import apple from "../assets/images/apple-project.png";
 import library from "../assets/images/library-project.png";
 import taskmanager from "../assets/images/task-manager.png";
 import github from "../assets/images/github-analyzer.png";
+import snake from "../assets/images/snake-project.png";
 import './Projects.css';
 
 const projectData = [
@@ -46,6 +47,14 @@ const projectData = [
     liveLink: 'https://task-manager-delta-bice.vercel.app',
     codeLink: 'https://github.com/geletatamiru/Task-Manager',
     image: taskmanager
+  },
+  {
+    title: 'Snake Game',
+    description: 'A classic Snake game built using HTML5 Canvas and JavaScript with full mobile and desktop support.',
+    techStack: 'HTML • CSS • JavaScript',
+    liveLink: 'https://snake-game-mu-ivory.vercel.app',
+    codeLink: 'https://github.com/geletatamiru/Snake-Game',
+    image: snake
   }
 ];
 
