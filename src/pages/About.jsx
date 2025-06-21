@@ -8,17 +8,12 @@ const About = () => {
         <h2 className="section-title">About Me</h2>
         <hr />
         <p className="about-text">
-          Hello! I’m <strong>Geleta Tamiru</strong>, a passionate and self-driven full-stack web developer based in Ethiopia.
+          Hello! I’m <strong>Geleta Tamiru</strong>, a full-stack web developer.
           I love building efficient, responsive, and user-friendly web applications. My specialties include React, Node.js,
           MongoDB, and more.
         </p>
         <p className="about-text">
-          I enjoy turning ideas into reality through code. Whether working solo or with a team, I strive to deliver clean, scalable
-          solutions. Currently, I'm focused on learning advanced backend systems and building impactful side projects.
-          I enjoy turning ideas into reality through code. Whether working solo or with a team, I strive to deliver clean, scalable
-          solutions. Currently, I'm focused on learning advanced backend systems and building impactful side projects.
-          I enjoy turning ideas into reality through code. Whether working solo or with a team, I strive to deliver clean, scalable
-          solutions. Currently, I'm focused on learning advanced backend systems and building impactful side projects.
+          I'm a passionate web developer who loves bringing concepts to life on the web. I thrive on solving complex problems and am always eager to learn new things to stay at the forefront of this ever-evolving field. My focus is on creating intuitive and visually appealing websites that provide an excellent user experience. I enjoy collaborating with teams to build impactful digital solutions.
         </p>
       </div>
     </section>
