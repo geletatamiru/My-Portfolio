@@ -5,9 +5,18 @@ import library from "../assets/images/library-project.png";
 import taskmanager from "../assets/images/task-manager.png";
 import github from "../assets/images/github-analyzer.png";
 import snake from "../assets/images/snake-project.png";
+import arifchat from "../assets/images/arifchat.png"
 import './Projects.css';
 
 const projectData = [
+    {
+    title: 'ArifChat',
+    description: 'ArifChat is a real-time chat application. It features instant messaging, online status, notification messages, and a responsive UI, designed for a smooth and modern user experience.',
+    techStack: 'React • CSS • Node.js • Express • MongoDB • Socket.io',
+    liveLink: 'https://chat-app-eta-livid.vercel.app',
+    codeLink: 'https://github.com/geletatamiru/Chat-App',
+    image: arifchat
+  },
   {
     title: 'Library Management System',
     description: 'A system to manage book borrowing, returns, and inventory in a physical library with admin approval.',
@@ -24,14 +33,6 @@ const projectData = [
     codeLink: 'https://github.com/geletatamiru/Github-Profile-Analyzer',
     image: github
   },
-  // {
-  //   title: 'Weather App',
-  //   description: 'A simple weather application that shows current weather conditions using OpenWeatherMap API.',
-  //   techStack: 'HTML • CSS • JavaScript • OpenWeatherMap API',
-  //   liveLink: '#',
-  //   codeLink: 'https://github.com/geletatamiru/weather-app',
-  //   image: null
-  // },
   {
     title: 'Apple Clone',
     description: 'A responsive UI clone of the Apple homepage to practice design and front-end skills.',
