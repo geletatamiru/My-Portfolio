@@ -7,7 +7,6 @@ import Node from '../assets/images/Node.js.svg';
 import Express from '../assets/images/Express.svg';
 import Mongo from '../assets/images/MongoDB.svg';
 import Mysql from '../assets/images/Mysql.svg';
-import PHP from '../assets/images/PHP.svg';
 
 import './Skills.css';
 
@@ -59,7 +58,6 @@ const Skills = () => {
           <div className="icon-grid">
             <div className="icon-wrapper"><img src={Node} alt="Node.js" /><span>Node.js</span></div>
             <div className="icon-wrapper"><img src={Express} alt="Express" /><span>Express</span></div>
-            <div className="icon-wrapper"><img src={PHP} alt="PHP" /><span>PHP</span></div>
           </div>
         </div>
 
