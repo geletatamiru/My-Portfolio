@@ -66,7 +66,6 @@ const Skills = () => {
           <h3>Database</h3>
           <div className="icon-grid">
             <div className="icon-wrapper"><img src={Mongo} alt="MongoDB" /><span>MongoDB</span></div>
-            <div className="icon-wrapper"><img src={Mysql} alt="Mysql" /><span>Mysql</span></div>
           </div>
         </div>
       </div>
